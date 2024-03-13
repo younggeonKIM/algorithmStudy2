@@ -3,12 +3,13 @@
 
 #include <iostream>
 #include "selectionSorting.cpp"
+#include "bubbleSorting.cpp"
 
 
-int main()
+int main(void)
 {
     
-    sorting();
+    bubSorting();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
