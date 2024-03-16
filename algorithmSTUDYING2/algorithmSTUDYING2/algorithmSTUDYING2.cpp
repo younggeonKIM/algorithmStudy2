@@ -2,15 +2,17 @@
 //
 
 #include <iostream>
-#include "selectionSorting.cpp"
-#include "bubbleSorting.cpp"
-#include "insertionSorting.cpp"
+
+#include "quickSorting.cpp"
 
 
 int main(void)
 {
     
-    insSorting();
+    quickSort(data, 0, number-1);
+    for (int i = 0; i < number; i++) {
+        printf("%d ", data[i]);
+    }
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
