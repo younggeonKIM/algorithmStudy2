@@ -1,18 +1,22 @@
 ﻿// algorithmSTUDYING2.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
+#include <stdio.h>
 
 #include "quickSorting.cpp"
+#include "baekjoon1.cpp"
 
 
 int main(void)
 {
     
-    quickSort(data, 0, number-1);
+    /*quickSort(data, 0, number-1);
     for (int i = 0; i < number; i++) {
         printf("%d ", data[i]);
-    }
+    }*/
+    basicSorting();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
