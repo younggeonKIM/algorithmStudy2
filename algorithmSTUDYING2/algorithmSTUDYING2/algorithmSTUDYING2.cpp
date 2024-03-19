@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 #include "quickSorting.cpp"
-#include "baekjoon1.cpp"
+#include "baekjoon2.cpp"
 
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
     for (int i = 0; i < number; i++) {
         printf("%d ", data[i]);
     }*/
-    basicSorting();
+    baekSort();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
