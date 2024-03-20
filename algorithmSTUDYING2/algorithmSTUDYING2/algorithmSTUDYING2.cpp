@@ -4,9 +4,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
-
-#include "quickSorting.cpp"
-#include "baekjoon2.cpp"
+#include "baekjoon3.cpp"
 
 
 int main(void)
@@ -16,7 +14,15 @@ int main(void)
     for (int i = 0; i < number; i++) {
         printf("%d ", data[i]);
     }*/
-    baekSort();
+    /*baekSort();*/
+    scanf("%d", &number);
+    for (int k = 0; k < number; k++) {
+        scanf("%d", &data[k]);
+    }
+    baek2Sort(data, 0, number - 1);
+    for (int i = 0; i < number; i++) {
+        printf("%d\n", data[i]);
+    }
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
