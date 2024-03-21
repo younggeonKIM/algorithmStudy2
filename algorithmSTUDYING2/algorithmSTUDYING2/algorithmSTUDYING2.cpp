@@ -4,7 +4,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
-#include "baekjoon3.cpp"
+
+#include "mergeSorting.cpp"
 
 
 int main(void)
@@ -15,13 +16,18 @@ int main(void)
         printf("%d ", data[i]);
     }*/
     /*baekSort();*/
-    scanf("%d", &number);
+    /*scanf("%d", &number);
     for (int k = 0; k < number; k++) {
         scanf("%d", &data[k]);
     }
     baek2Sort(data, 0, number - 1);
     for (int i = 0; i < number; i++) {
         printf("%d\n", data[i]);
+    }*/
+    
+    mergeSort(sorted, 0, number - 1);
+    for (int i = 0; i < number; i++) {
+        printf("%d ", sorted[i]);
     }
 }
 
