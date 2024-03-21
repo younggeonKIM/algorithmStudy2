@@ -4,7 +4,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
-
 #include "mergeSorting.cpp"
 
 
@@ -24,7 +23,8 @@ int main(void)
     for (int i = 0; i < number; i++) {
         printf("%d\n", data[i]);
     }*/
-    
+    int number = 8;
+    int array[8] = { 7, 6, 5, 8 ,3 , 1, 5, 9 };
     mergeSort(sorted, 0, number - 1);
     for (int i = 0; i < number; i++) {
         printf("%d ", sorted[i]);

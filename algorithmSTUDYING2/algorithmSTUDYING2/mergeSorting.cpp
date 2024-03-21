@@ -21,14 +21,14 @@ void merge(int a[], int m, int middle, int n) {
 		k++;
 	}
 	// 남은 부분 배열에 삽입
-	if (j > n) {
-		for (int t = i; t <= middle; t++) {
+	if (i > middle) {
+		for (int t = j; t <= n; t++) {
 			sorted[k] = a[t];
 			k++;
 		}
 	} 
 	else {
-		for (int t = j; t <= n; t++) {
+		for (int t = i; t <= middle; t++) {
 			sorted[k] = a[t];
 			k++;
 		}
