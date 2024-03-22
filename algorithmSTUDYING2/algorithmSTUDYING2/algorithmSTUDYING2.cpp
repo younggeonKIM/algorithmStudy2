@@ -4,30 +4,23 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
-#include "mergeSorting.cpp"
+
+#include "STLsort.cpp"
+#include "Student.h"
 
 
 int main(void)
 {
-    
-    /*quickSort(data, 0, number-1);
-    for (int i = 0; i < number; i++) {
-        printf("%d ", data[i]);
-    }*/
-    /*baekSort();*/
-    /*scanf("%d", &number);
-    for (int k = 0; k < number; k++) {
-        scanf("%d", &data[k]);
-    }
-    baek2Sort(data, 0, number - 1);
-    for (int i = 0; i < number; i++) {
-        printf("%d\n", data[i]);
-    }*/
-    int number = 8;
-    int array[8] = { 7, 6, 5, 8 ,3 , 1, 5, 9 };
-    mergeSort(sorted, 0, number - 1);
-    for (int i = 0; i < number; i++) {
-        printf("%d ", sorted[i]);
+    Student students[] = {
+        Student("김영건", 90),
+        Student("사토", 81),
+        Student("나영", 91),
+        Student("종명", 60),
+        Student("영민", 92)
+    };
+    sort(students, students + 5);
+    for (int i = 0; i < 5; i++) {
+        cout << students[i].name << ' ';
     }
 }
 
