@@ -20,3 +20,16 @@ public:
 	}
 };
 
+
+//Student students[] = {
+//		Student("김영건", 90),
+//		Student("사토", 81),
+//		Student("나영", 91),
+//		Student("종명", 60),
+//		Student("영민", 92)
+//};
+//sort(students, students + 5);
+//for (int i = 0; i < 5; i++) {
+//	cout << students[i].name << ' ';
+//}
+

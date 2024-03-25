@@ -139,10 +139,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithmSTUDYING2.cpp" />
-    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="STLSort\Student.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h" />
+    <ClInclude Include="STLSort\Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,23 +5,11 @@
 #include <iostream>
 #include <stdio.h>
 
-#include "STLsort.cpp"
-#include "Student.h"
-
+#include "STLSort/pairLibrarySTLSort2.cpp"
 
 int main(void)
 {
-    Student students[] = {
-        Student("김영건", 90),
-        Student("사토", 81),
-        Student("나영", 91),
-        Student("종명", 60),
-        Student("영민", 92)
-    };
-    sort(students, students + 5);
-    for (int i = 0; i < 5; i++) {
-        cout << students[i].name << ' ';
-    }
+    stl3Sorting();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
