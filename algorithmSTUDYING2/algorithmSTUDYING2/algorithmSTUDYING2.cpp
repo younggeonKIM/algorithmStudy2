@@ -6,10 +6,11 @@
 #include <stdio.h>
 
 #include "STLSort/pairLibrarySTLSort2.cpp"
+#include "heapSorting.cpp"
 
 int main(void)
 {
-    stl3Sorting();
+    heapSort();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

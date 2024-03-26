@@ -1,1 +1,3 @@
-﻿  algorithmSTUDYING2.vcxproj -> C:\Users\영건\git\algorithmstudy_2\algorithmSTUDYING2\Debug\algorithmSTUDYING2.exe
+﻿  algorithmSTUDYING2.cpp
+C:\Users\영건\git\algorithmstudy_2\algorithmSTUDYING2\algorithmSTUDYING2\STLSort\pairLibrarySTLSort2.cpp(26,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  algorithmSTUDYING2.vcxproj -> C:\Users\영건\git\algorithmstudy_2\algorithmSTUDYING2\Debug\algorithmSTUDYING2.exe
