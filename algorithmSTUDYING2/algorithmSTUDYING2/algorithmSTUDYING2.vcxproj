@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithmSTUDYING2.cpp" />
+    <ClCompile Include="STLSort\heapSorting.cpp" />
     <ClCompile Include="STLSort\Student.cpp" />
   </ItemGroup>
   <ItemGroup>
