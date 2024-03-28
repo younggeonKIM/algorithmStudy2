@@ -4,14 +4,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
+#include <algorithm>
 
-#include "STLSort/pairLibrarySTLSort2.cpp"
-
-#include "countSorting.cpp"
+#include "baekjoon/baekjoonAdv1.cpp"
 
 int main(void)
 {
-    countSort();
+    baekAdv1();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
