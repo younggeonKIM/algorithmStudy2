@@ -6,11 +6,11 @@
 #include <stdio.h>
 #include <algorithm>
 
-#include "baekjoon/baekjoonAdv2.cpp"
+#include "baekjoon/baekjoonAdv3.cpp"
 
 int main(void)
 {
-    baekAdv2();
+    baekAdv3();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
